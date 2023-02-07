@@ -1,38 +1,58 @@
+body {
+  background-color: #303030;
+  background-image: linear-gradient(90deg, #28313b 0%, #303030 100%);
+}
+
+
 .App {
+  text-align: center;
+  margin: 0 auto;
+  width: 100%;
+  color: #303030;
+  max-width: 950px;
+}
+
+.pictureTionary {
+  font-family: "Pacifico", cursive;
+  font-size: 48px;
+  color: #bb2649;
+}
+
+.ioText {
+  font-family: "Pacifico", cursive;
+  font-size: 48px;
+  color: #26bb98;
+}
+
+
+footer {
+  font-size: 20px;
+  margin: 20px 0;
+  color: #ded4d4;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.heartBeat {
+  fill: red;
+  width: 20px;
+  height: 15px;
+  transform: rotate(-45deg) scale(1);
+  animation: pulse 2s ease infinite;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+@keyframes pulse {
+  0% {
+    transform: rotate(-45deg) scale(1);
+    opacity: 0;
   }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  50% {
+    transform: rotate(-45deg) scale(1.3);
+    opacity: 1;
   }
-  to {
-    transform: rotate(360deg);
+
+  100% {
+    transform: rotate(-45deg) scale(1);
+    opacity: 1;
   }
 }
