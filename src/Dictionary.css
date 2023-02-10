@@ -1,12 +1,29 @@
-.Dictionary {
+.Dictionary section {
   display: flex;
   justify-content: center;
-  margin-top: 40px;
+  margin: 40px;
 }
 
+.Dictionary .row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Dictionary input {
+  width: 100%;
+  height: 30px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 5px;
+
+}
+
+
 @media (max-width: 800px) {
-  .Dictionary {
-    flex: 100%;
+  .Dictionary section {
+    flex-direction: column;
   }
 
 }
