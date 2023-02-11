@@ -1,0 +1,21 @@
+.Meaning {
+    line-height: 1.5em;
+    font-size: 1.2em;
+}
+
+.Meaning p {
+    line-height: 1.5em;
+}
+
+.Meaning .example {
+    opacity: 0.5;
+    font-style: italic;
+    margin-top: 10px;
+}
+
+.Meaning .synonyms {
+    color: #26bb98;
+    margin-top: 10px;
+    font-style: italic;
+    opacity: 0.5;
+}

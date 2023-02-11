@@ -1,0 +1,26 @@
+.Phonetic {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Phonetic a {
+    text-decoration: none;
+    color: black;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    font-weight: 600;
+    font-size: 0.3em;
+    padding: 0.2em 0.5em;
+    transform: all 100ms ease-in-out;
+}
+
+.Phonetic a:hover {
+    background-color: #ddd;
+    color: #b2033e;
+}
+
+.Phonetic .wordSpeak {
+    font-weight: 600;
+    opacity: 0.5;
+}
