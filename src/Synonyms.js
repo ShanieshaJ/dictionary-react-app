@@ -14,3 +14,5 @@ function Synonyms(props) {
     return null;
   }
 }
+
+export default Synonyms;
