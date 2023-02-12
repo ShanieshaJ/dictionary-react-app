@@ -17,7 +17,6 @@ function Meaning(props) {
       <p className="synonyms">
         <Synonyms synonyms={props.meaning.synonyms} />
       </p>
-      <p className="antonyms">{definition.antonyms}</p>
     </div>
   );
 }
