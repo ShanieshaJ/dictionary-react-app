@@ -1,7 +1,6 @@
 .Dictionary section {
   display: flex;
-  justify-content: center;
-  margin: 40px;
+
 }
 
 .Dictionary .row {
@@ -13,15 +12,27 @@
 .Dictionary input {
   width: 100%;
   height: 30px;
-  border: 1px solid #ccc;
   border-radius: 5px;
   padding: 5px;
   margin: 5px;
 
 }
 
+.hints {
+  margin: 0.4em;
+  color: #303030;
+  opacity: 0.5;
+}
 
-@media (max-width: 800px) {
+.Dictionary section {
+  background-color: #fff;
+  border-radius: 6px;
+  box-shadow: 0 5px 5px rgb(0 0 0/5%);
+  margin: 20px 0;
+  padding: 30px;
+}
+
+@media only screen and (max-width: 600px) {
   .Dictionary section {
     flex-direction: column;
   }

@@ -1,5 +1,13 @@
-.Results h3 {
+.Results {
     font-size: 1.5em;
     font-weight: 600;
     margin-bottom: 0.5em;
+}
+
+.wordText {
+    line-height: 1.5em;
+    font-size: 1.0em;
+    text-align: left;
+    display: inline-block;
+    text-transform: capitalize;
 }

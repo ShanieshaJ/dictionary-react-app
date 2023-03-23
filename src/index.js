@@ -1,9 +1,8 @@
-import React from "react";
+import React, { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
-import { StrictMode } from "react";
-import "./index.css";
 import App from "./App";
 import "bootstrap/dist/css/bootstrap.css";
+import "./index.css";
 import reportWebVitals from "./reportWebVitals";
 
 const root = createRoot(document.getElementById("root"));

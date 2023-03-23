@@ -1,21 +1,54 @@
 .Meaning {
     line-height: 1.5em;
-    font-size: 1.2em;
+    font-size: 1.0em;
+    text-align: left;
+    display: inline-block;
 }
 
-.Meaning p {
+.Meaning .partOfSpeechText {
+    text-transform: capitalize;
+}
+
+.Meaning p,
+.Meaning .partOfSpeechText {
     line-height: 1.5em;
 }
 
-.Meaning .example {
+.Meaning .partOfSpeechText,
+.Meaning .defineTitle,
+.Meaning .exampleTitle,
+.Meaning .synonyms-text {
+    font-weight: bold;
+}
+
+.Meaning .exampleTitle {
+    color: #bb2649;
     opacity: 0.5;
     font-style: italic;
     margin-top: 10px;
 }
 
-.Meaning .synonyms {
+
+.Meaning .synonyms-text {
     color: #26bb98;
+    position: relative;
+    right: 2rem;
     margin-top: 10px;
     font-style: italic;
     opacity: 0.5;
+}
+
+.definition {
+    border-left: 5px solid #303030;
+    padding-left: 5px;
+    margin-top: 15px;
+}
+
+
+.defineExample {
+    border-left: 5px solid #bb2649;
+    padding-left: 5px;
+    margin-top: 15px;
+    color: #303030;
+    font-style: italic;
 }
