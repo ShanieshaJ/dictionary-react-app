@@ -1,0 +1,16 @@
+.Photos img {
+    border-radius: 4px;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 5px 0px #2d343c;
+
+    transition: all 145ms ease-in-out;
+}
+
+.Photos img:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 0px 10px 0px #2d343c;
+}
+
+.Photos .photos-header-text {
+    margin-bottom: 20px;
+}
