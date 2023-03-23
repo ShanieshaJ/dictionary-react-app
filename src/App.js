@@ -1,6 +1,6 @@
 import React from "react";
-import "./App.css";
 import Dictionary from "./Dictionary";
+import "./App.css";
 
 function App() {
   return (
@@ -12,7 +12,7 @@ function App() {
           </h1>
         </header>
         <main className="App-section">
-          <Dictionary />
+          <Dictionary defaultKeyword="Aphrodite" />
         </main>
         <footer>
           <small>
@@ -24,5 +24,4 @@ function App() {
     </div>
   );
 }
-
 export default App;
