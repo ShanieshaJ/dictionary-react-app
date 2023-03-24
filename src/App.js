@@ -16,8 +16,26 @@ function App() {
         </main>
         <footer>
           <small>
-            Open-source and coded with <span className="heartBeat">❤️</span> by
-            Shaniesha John{" "}
+            This project is open-source code on{" "}
+            <a
+              href="https://github.com/ShanieshaJ/dictionary-react-app"
+              target="_blank"
+              className="projectLink"
+              rel="noopener noreferrer"
+            >
+              Github
+            </a>{" "}
+            and hosted on This project is{" "}
+            <a
+              href="https://dapper-lolly-c07873.netlify.app/"
+              target="_blank"
+              className="projectLink"
+              rel="noopener noreferrer"
+            >
+              {" "}
+              Netlify{" "}
+            </a>{" "}
+            <span className="heartBeat">❤️</span> by Shaniesha John{" "}
           </small>
         </footer>
       </div>

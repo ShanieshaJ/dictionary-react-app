@@ -58,3 +58,8 @@ footer {
     opacity: 1;
   }
 }
+
+.projectLink {
+  text-decoration: none;
+  color: #dbddf2;
+}
