@@ -25,7 +25,7 @@ function App() {
             >
               Github
             </a>{" "}
-            and hosted on This project is{" "}
+            and hosted on{" "}
             <a
               href="https://dapper-lolly-c07873.netlify.app/"
               target="_blank"
