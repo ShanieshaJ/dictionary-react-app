@@ -14,14 +14,16 @@ body {
 
 .pictureTionary {
   font-family: "Pacifico", cursive;
-  font-size: 48px;
+  font-size: 50px;
   color: #bb2649;
+  text-shadow: 2px 2px 0px #ded4d4, 5px 4px 0px rgba(0, 0, 0, 0.15);
 }
 
 .ioText {
   font-family: "Pacifico", cursive;
-  font-size: 48px;
+  font-size: 50px;
   color: #26bb98;
+  text-shadow: 2px 2px 0px #ded4d4, 5px 4px 0px rgba(0, 0, 0, 0.15);
 }
 
 

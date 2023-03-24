@@ -12,7 +12,7 @@ function App() {
           </h1>
         </header>
         <main className="App-section">
-          <Dictionary defaultKeyword="Aphrodite" />
+          <Dictionary defaultKeyword="person" />
         </main>
         <footer>
           <small>
