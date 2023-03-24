@@ -64,7 +64,7 @@ function Dictionary(props) {
               </div>
             </div>
             <div className="hints">
-              Suggested words: venus, travel, opal, pegasus, love, etc..
+              Suggested words: person, travel, love, diamond, aphrodite, dream
             </div>
           </form>
         </section>

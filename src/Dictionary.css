@@ -11,10 +11,9 @@
 
 .Dictionary input {
   width: 100%;
-  height: 30px;
   border-radius: 5px;
-  padding: 5px;
-  margin: 5px;
+  padding: 5px 4px;
+  margin-bottom: 5px;
 
 }
 
